@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">CRUD ASP.NET</h1>
+        <p class="lead">En esta pagina encontraras un CRUD sencillo realizado con ASP.NET</p>
+    </section>
+
+    <div class="row">
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <h2 id="gettingStartedTitle">Create</h2>
+            <p>
+                Registrar un nuevo empleado el cual quedara guardado directamente en la base de datos.
+            </p>
+            <p><a class="btn btn-outline-dark" href="~/tblEmpleados/Create">Ir &raquo;</a></p>
+        </section>
+
+        <section class="col-md-4" aria-labelledby="librariesTitle">
+            <h2 id="librariesTitle">Delete</h2>
+            <p>Eliminar empleados existentes</p>
+        </section>
+
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+            <h2 id="hostingTitle">Details</h2>
+            <p>Ver los detalles de cada uno de los empleados existentes</p>
+            <p><a class="btn btn-outline-dark" href="~/tblEmpleados/Index">Ir &raquo;</a></p>
+        </section>
+
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+            <h2 id="hostingTitle">Edit</h2>
+            <p>Editar la informacion de los empleados</p>
+        </section>
+
+    </div>
+</main>
